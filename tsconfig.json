@@ -6,6 +6,15 @@
     "module": "CommonJS",
     "esModuleInterop": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "types": [
+      "node",
+      "express",
+      "mongoose",
+      "morgan",
+      "cors",
+      "bcrypt",
+      "jsonwebtoken"
+    ]
   }
 }
